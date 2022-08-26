@@ -16,7 +16,32 @@
 
     <section id="slot-machine">
 
-        
+        <div id="reels2" class="reel-wrap">
+
+            <div id="reels">
+                <div class="controls">
+                    <div class="controls-button">
+                        <div class="bank">
+                            <!-- <button class="button">Balance: <span id="bank">0</span></button> -->
+                            <input type="text" name="bank" maxlength="4" value="1000" min="1" max="5000" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); 
+                                this.value = this.value.replace(/(\..*)\./g, '$1'); 
+                                updateInput(this.value)" id="bank"></input>
+                        </div>
+                        <div class="spin">
+                            <button class="button start-random" type="button" id="spin-button">Spin</button>
+                        </div>
+                    </div>
+                </div>
+                <span id="line-top" class="red-line top-hor" style="display: none;"></span>
+                <span id="line-center" class="red-line mid-hor" style="display: none;"></span>
+                <span id="line-bottom" class="red-line bottom-hor" style="display: none;"></span>
+                <div class="reel-frames-border"></div>
+                <div class="reel-frames-wrapper">
+                    <div class="reel-frames left"></div>
+                    <div class="reel-frames center"></div>
+                    <div class="reel-frames right"></div>
+                </div>
+                <div id="reel1" class="reel">
                     <div></div>
                     <div></div>
                     <div></div>
@@ -114,30 +139,7 @@
                 <div id="payline-7" class="pay-line">3<img class="pay-table-icon" src="./assets/BAR.png">on any line<span id="coins-7" class="coins">10</span></div>
                 <div id="payline-8" class="pay-line">Combination of any<img class="pay-table-icon" src="./assets/BAR.png">on any line<span id="coins-8" class="coins">5</span></div>
             </div>
-          <div class="controls">
-                    <div class="controls-button">
-                        <div class="bank">
-                            <!-- <button class="button">Balance: <span id="bank">0</span></button> -->
-                            <input type="text" name="bank" maxlength="4" value="1000" min="1" max="5000" oninput="this.value = this.value.replace(/[^0-9.]/g, ''); 
-                                this.value = this.value.replace(/(\..*)\./g, '$1'); 
-                                updateInput(this.value)" id="bank"></input>
-                        </div>
-                        <div class="spin">
-                            <button class="button start-random" type="button" id="spin-button">Spin</button>
-                        </div>
-                    </div>
-                </div>
-                <span id="line-top" class="red-line top-hor" style="display: none;"></span>
-                <span id="line-center" class="red-line mid-hor" style="display: none;"></span>
-                <span id="line-bottom" class="red-line bottom-hor" style="display: none;"></span>
-                <div class="reel-frames-border"></div>
-                <div class="reel-frames-wrapper">
-                    <div class="reel-frames left"></div>
-                    <div class="reel-frames center"></div>
-                    <div class="reel-frames right"></div>
-                </div>
-                <div id="reel1" class="reel">
-                </div>
+          
             </div>
         </div>
 
