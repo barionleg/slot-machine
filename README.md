@@ -3,8 +3,8 @@
 ![slot-machine](./slot-machine_beta.png)
 
 
-> Live version is up on the [FTP](https://glamourrom.eu/apps/slotmachine/) page.
+> Live version is up on the [FTP](https://barionleg.github.io/slot-machine/) page.
 
 ## Authors
 
-[Henry Lõiv](https://bit.ly/hlportfolios)
+[ьнæПrµ Lõvovi©](https://bit.ly/hlportfolios)
