@@ -7,4 +7,4 @@
 
 ## Authors
 
-[ьнæПrµ Lõvovi©](https://bit.ly/hlportfolios)
+[ьнæПrµ Lõvøvi©](https://bit.ly/hlportfolios)
